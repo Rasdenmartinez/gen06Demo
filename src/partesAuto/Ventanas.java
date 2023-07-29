@@ -16,7 +16,7 @@ public class Ventanas {
         return "Ventanas{" +
                 "id=" + id +
                 ", material='" + material + '\'' +
-                ", grosor=" + grosor +
+                ", grosor =" + grosor +
                 '}';
     }
 
