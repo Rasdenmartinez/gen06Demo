@@ -4,6 +4,8 @@ public class Estereo {
     Integer id;
     String marca;
     Integer modelo;
+    String potencia;
+
 
     public Integer getId() {
         return id;
@@ -29,10 +31,11 @@ public class Estereo {
         this.modelo = modelo;
     }
 
-    public Estereo(Integer id, String marca, Integer modelo) {
+    public Estereo(Integer id, String marca, Integer modelo, String potencia) {
         this.id = id;
         this.marca = marca;
         this.modelo = modelo;
+        this.potencia = potencia;
     }
 
     public Estereo() {
@@ -47,6 +50,7 @@ public class Estereo {
                 "id=" + id +
                 ", marca='" + marca + '\'' +
                 ", modelo=" + modelo +
+                ", potencia='" + potencia + '\'' +
                 '}';
     }
 }
